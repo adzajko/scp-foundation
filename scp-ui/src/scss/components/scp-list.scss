@@ -1,0 +1,26 @@
+.scp-list-item {
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px 0 var(--app-shadows);
+  width: 80%;
+  margin-bottom: 4rem;
+
+  &__header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  &__main {
+      margin-top: 2rem;
+  }
+
+  .h5.no-decoration {
+      text-align: center;
+      display: block;
+      transition: 0.3s all ease-out;
+  }
+
+  .h5.no-decoration:hover {
+      transform: translateY(-5px);
+  }
+}

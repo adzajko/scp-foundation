@@ -1,0 +1,27 @@
+.keter {
+  color: rgb(167, 26, 26);
+}
+.apollyon {
+  color: grey;
+}
+.safe {
+  color: rgb(20, 85, 20);
+}
+.neutralized {
+  text-decoration: line-through;
+}
+.euclid {
+  color: rgb(241, 220, 25);
+}
+.thaumiel {
+  color: darkslategray;
+}
+
+.keter,
+.apollyon,
+.safe,
+.neutralized,
+.euclid,
+.thaumiel {
+  text-transform: uppercase;
+}

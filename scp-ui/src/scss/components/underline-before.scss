@@ -1,0 +1,16 @@
+.underline-before {
+    position: relative;
+    padding-bottom: 1rem;
+    display: inline-block;
+}
+
+.underline-before::before {
+    content: '';
+    background-color: #212121;
+    border-radius: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+.login-container {
+  height: 100%;
+  display: grid;
+  place-items: center;
+
+  &__img-container {
+    width: 30%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+  }
+
+  &__btn#login-btn {
+     justify-self: center;
+     align-self: flex-start;
+     background-color: var(--app-accent);
+     color: var(--app-primary);
+  }
+}

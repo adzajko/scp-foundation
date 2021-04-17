@@ -1,0 +1,10 @@
+.app-footer {
+    padding: 1rem 7rem;
+
+    &__text {
+        margin-bottom: 0;
+        text-align: center;
+        padding-top: 1rem;
+        border-top: 5px solid var(--app-accent);
+    }
+}
